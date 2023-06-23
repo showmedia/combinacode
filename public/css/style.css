@@ -1,0 +1,196 @@
+* {
+    font-family: 'roboto';
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.tela {
+    width: 100%;
+    display: inline-flex;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+
+  }
+
+  .img-logo{
+    width: 50%;
+    margin: 10px auto
+}
+
+#navbar img{
+    margin-left: 10px;
+    width: 10%;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0px 0;
+}
+
+#navbar a{
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover{
+    color: #40baf2;
+}
+
+#navbar ul {
+  margin-right: 10px;
+}
+
+@media (max-width:1080px) {
+    #navbar {
+        display: inline-flex;
+    }
+    #navbar img{
+        width: 20%;
+    }
+    #navbar ul{
+        position: absolute;
+        right: 10px;
+        top: 5px
+    }
+}
+
+footer{
+    text-align: center;
+    background-color: #484849;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+.btn-div{
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    padding: 0 20%;
+}
+
+#btn-excel{
+    width: 100%;
+    display: none;
+}
+
+.inputs{
+    width: 60%;
+    
+    margin: 0 20%;
+    padding: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.inputs .btns{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputs div{
+    width: 20%;
+}
+
+.mobile h5{
+    text-align: center;
+    font-size: 18px;
+    color: #484849;
+    margin-top: 50px;
+}
+
+.formulario{
+    width: 80%;
+    margin: 25px auto;
+}
+
+.mobile small{
+    font-size: 13px;
+    color: #757575;
+}
+
+.inputs div input{
+    width: 96%;
+    text-align: center;
+    margin: 2px 1%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+ 
+#btn-add{
+    width: 100%;
+}
+
+#slogam{
+    text-align: center;
+
+    color: #40baf2;
+}
+
+#slo{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /*combinasorte*/
+
+  .mobile{
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #f9f9f9;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+
+  .mobile .gerar{
+    width: 50%;
+    margin: 50px auto;
+  }
+
+  #table{
+    width: 80%;
+    margin: 0 auto;
+  }
